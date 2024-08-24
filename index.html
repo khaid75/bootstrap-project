@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop (Ecomarce Website Design)</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/fonts/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="asset/main.css">
+</head>
+<body>
+   <!--Navigation-->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="asset/image/ecommerce-logo-png-11.png" style="height: 40px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <button class="btn btn-outline-success search-btn mx-2" type="submit">Search</button>
+                <form class="search-form">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    
+                  </form>
+                <li class="nav-item mx-2">
+                  <a class="nav-link"href="#">
+                    <i class="bi bi-heart"></i>
+                  </a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-cart4 position-relative">
+                        <span style="font-size: 8px;" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            12+
+                          </span>
+                    </i>
+                  </a>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person"></i>
+                  </a>
+                  <ul class="dropdown-menu border-0 shadow-lg">
+                    <li><a class="dropdown-item" href="#">Log In</a></li>
+                    <li><a class="dropdown-item" href="#">Register</a></li>
+                    
+                  </ul>
+                </li>
+              </ul>
+           
+          </div>
+        </div>
+      </nav>
+   </header>
+
+   <!--Section-->
+
+   <section class="slider bg-light pt-5" style="height: 500px;">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+       <div class="container">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-6 slider-text">
+              <h2 class="text-success" style="font-size: 70px; font-weight: 600;">
+                Order <span class="lighten" style="color: orangered;">Online</span>, Save Your<br>
+                <span class="lighten" style="color: orangered;">Time</span>
+              </h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem quisquam dolores expedita dolorum in, aut accusamus aperiam dolore voluptate ipsum nemo cumque omnis itaque sunt, maxime eum excepturi laudantium maiores?</p>
+              <a href="#" class="btn btn-success rounded-pill">Order Now <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+            <div class="col-lg-6 slider-image">
+              <img src="asset/image/Product/f1.png" class="d-block w-100" alt="F1">
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-6 slider-text">
+              <h2 class="text-success" style="font-size: 70px; font-weight: 600;">
+                Order <span class="lighten" style="color: orangered;">Online</span>, Save Your<br>
+                <span class="lighten" style="color: orangered;">Time</span>
+              </h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem quisquam dolores expedita dolorum in, aut accusamus aperiam dolore voluptate ipsum nemo cumque omnis itaque sunt, maxime eum excepturi laudantium maiores?</p>
+              <a href="#" class="btn btn-success rounded-pill">Order Now <i class="bi bi-arrow-right"></i></a>
+
+            </div>
+            <div class="col-lg-6 slider-image">
+              <img src="asset/image/Product/f3.png" class="d-block w-100" alt="F1">
+
+            </div>
+          </div>
+        </div>
+        
+       </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+   </section>
+   <!--Category Product-->
+    <section class="category-product py-5">
+      <div class="container">
+        <div class="section-title text-center" >
+          <h2>Category Products</h2>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card shadow-sm bg-light border-0 h-100">
+              <div class="card-body">
+                <img src="asset/image/Product/product22.png" alt="product">
+                <h4 class="text-center fw-bolder my-3">Carrot</h4>
+                <div class="text-center">
+                  <a href="#" class="btn btn-outline-success rounded-pill">View all <i class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="card shadow-sm bg-light border-0 h-100">
+              <div class="card-body">
+                <img src="asset/image/Product/product23.png" alt="product">
+                <h4 class="text-center fw-bolder my-3">Onion</h4>
+                <div class="text-center">
+                  <a href="#" class="btn btn-outline-success rounded-pill">View all <i class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="card shadow-sm bg-light border-0 h-100">
+              <div class="card-body">
+                <img src="asset/image/Product/product27.png" alt="product">
+                <h4 class="text-center fw-bolder my-3">Garlic</h4>
+                <div class="text-center">
+                  <a href="#" class="btn btn-outline-success rounded-pill">View all <i class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-3">
+            <div class="card shadow-sm bg-light border-0 h-100">
+              <div class="card-body">
+                <img src="asset/image/Product/product28.png" alt="product">
+                <h4 class="text-center fw-bolder my-3">Broccoli</h4>
+                <div class="text-center">
+                  <a href="#" class="btn btn-outline-success rounded-pill">View all <i class="bi bi-arrow-right"></i></a>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--Banner Section-->
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 ">
+              <div class="item d-flex p-4" style="background-color: #ccc;">
+                <div class="text fw-bolder">
+                  <p class="text-danger">Fresh Fruit</p>
+                  <h2 style="font-size: 36px; line-height: 51px;">Healthy Food</h2>
+                  <p>Get 20% off Selected Product</p>
+                  <a href="#" class="btn btn-outline-success rounded-pill">Order Now</a>
+                </div>
+                <img src="asset/image/Product/f3.png" alt="pic">
+
+              </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="item d-flex p-4" style="background-color: #ccc;">
+              <div class="text fw-bolder">
+                <p class="text-danger">Fresh Fruit</p>
+                <h2 style="font-size: 36px; line-height: 51px;">Healthy Food</h2>
+                <p>Get 20% off Selected Product</p>
+                <a href="#" class="btn btn-outline-success rounded-pill">Order Now</a>
+              </div>
+              <img src="asset/image/Product/product27.png" alt="pic" style="height: 250px; width: 300px;">
+
+            </div>
+        </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--Latest Product-->
+    
+    <section class="latest-product bg-light">
+      <div class="container">
+        <h2 class="pt-5">Latest Products</h2>
+        <hr>
+          <div class="row pt-3">
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body border-0 shadow-sm text-center">
+                  <img src="asset/image/Product/product27.png" alt="pic">
+                  <h2 class="product-name p-3" style="font-size: 20px;">
+                    <a>Organic Cauliflower(1kg)</a>
+                  </h2>
+                  <div class="rating">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+                  <h2 class="py-2">$ 200.00</h2>
+                  <div class="btn btn-outline-success rounded-pill mt-2">
+                    <a>
+                      <i class="bi bi-cart4"></i> Add to Cart
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body border-0 shadow-sm text-center">
+                  <img src="asset/image/Product/product28.png" alt="pic">
+                  <h2 class="product-name p-3" style="font-size: 20px;">
+                    <a>Organic Cauliflower(1kg)</a>
+                  </h2>
+                  <div class="rating">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+                  <h2 class="py-2">$ 200.00</h2>
+                  <div class="btn btn-outline-success rounded-pill mt-2">
+                    <a>
+                      <i class="bi bi-cart4"></i> Add to Cart
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body border-0 shadow-sm text-center">
+                  <img src="asset/image/Product/product27.png" alt="pic">
+                  <h2 class="product-name p-3" style="font-size: 20px;">
+                    <a>Organic Cauliflower(1kg)</a>
+                  </h2>
+                  <div class="rating">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+                  <h2 class="py-2">$ 200.00</h2>
+                  <div class="btn btn-outline-success rounded-pill mt-2">
+                    <a>
+                      <i class="bi bi-cart4"></i> Add to Cart
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="card-body border-0 shadow-sm text-center">
+                  <img src="asset/image/Product/product28.png" alt="pic">
+                  <h2 class="product-name p-3" style="font-size: 20px;">
+                    <a>Organic Cauliflower(1kg)</a>
+                  </h2>
+                  <div class="rating">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                  </div>
+                  <h2 class="py-2">$ 200.00</h2>
+                  <div class="btn btn-outline-success rounded-pill mt-2">
+                    <a>
+                      <i class="bi bi-cart4"></i> Add to Cart
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+
+    </section>
+
+    <!--promotion Banner-->
+
+    <section class="banner position-relative">
+      <div class="container">
+        <img src="asset/image/banner.jpg" alt="banner" class="w-100">
+        <h2 style="font-size: 53px; position: absolute; top:50%; left: 20%; width: 317px; font-weight: 700; color: seagreen;">Order Online Save Your Time</h2>
+      </div>
+
+    </section>
+
+    <!--footer section-->
+    <footer class="border-top py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="asset/image/ecommerce-logo-png-11.png" height="40">
+            <h2 class="mt-3">Get the App</h2>
+            <p>Nefresh App is now avaiable on Google Play & App Store. Get it now</p>
+            <img src="asset/image/store1.png">
+            <img src="asset/image/store2.png">
+          </div>
+
+          <div class="col-lg-3">
+            <h2>Information</h2>
+            <ul class="footer-list">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Shoping Policy</a></li>
+              <li><a href="">Terms and Conditions</a></li>
+              <li><a href="">Contract Us</a></li>
+
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h2>User area</h2>
+            <ul class="footer-list">
+              <li><a href="">My Account</a></li>
+              <li><a href="">My cart</a></li>
+              <li><a href="">Login</a></li>
+              <li><a href="">Checkout</a></li>
+
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h2>Information</h2>
+            <p>01521-328478</p>
+            <p>address: Dhaka, Mirpur -10</p>
+            <p>support@eshop.com</p>
+             
+          </div>
+
+
+        </div>
+        <hr>
+        <div class="copyright-text text-center">
+          <a>Copy @ 2021 <span class="text-dark fw-bolder">Web</span> <span class="text-danger fw-bolder">Burden</span></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="asset/js/bootstrap.bundle.js"></script>
+</body>
+</html>
